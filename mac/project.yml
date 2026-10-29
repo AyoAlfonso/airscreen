@@ -1,0 +1,38 @@
+name: AirScreen
+options:
+  bundleIdPrefix: com.airscreen
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+packages:
+  WebRTC:
+    url: https://github.com/stasel/WebRTC
+    exactVersion: 156.0.0
+targets:
+  AirScreen:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources/AirScreen
+      - path: Resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.airscreen.mac
+        PRODUCT_NAME: AirScreen
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.0"
+        SWIFT_OBJC_BRIDGING_HEADER: Sources/AirScreen/AirScreen-Bridging-Header.h
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        INFOPLIST_KEY_LSUIElement: YES
+        INFOPLIST_KEY_NSScreenCaptureUsageDescription: "AirScreen needs to capture your screen to share it with your TV."
+        INFOPLIST_KEY_NSLocalNetworkUsageDescription: "AirScreen uses the local network to send your screen to your TV."
+        INFOPLIST_KEY_NSBonjourServices: "_airscreen._tcp"
+        CODE_SIGN_STYLE: Automatic
+        ENABLE_HARDENED_RUNTIME: NO
+    dependencies:
+      - package: WebRTC
+        product: WebRTC
+      - sdk: VideoToolbox.framework
+      - sdk: CoreMedia.framework
+      - sdk: CoreVideo.framework

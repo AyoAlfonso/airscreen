@@ -1,0 +1,10 @@
+.DS_Store
+mac/build/
+mac/AirScreen.xcodeproj/xcuserdata/
+mac/AirScreen.xcodeproj/project.xcworkspace/
+android-tv/.gradle/
+android-tv/build/
+android-tv/app/build/
+android-tv/local.properties
+tools/gradle-8.9/
+tools/gradle-8.9-bin.zip

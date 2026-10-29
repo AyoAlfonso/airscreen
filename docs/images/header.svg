@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F1F22"/><stop offset="1" stop-color="#08080A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <g transform="translate(96 62) scale(0.92)">
+<!-- hop trail: three fat dots survive downscaling where a dashed arc turns to mush -->
+  <circle cx="60" cy="64" r="5.5" fill="#0A84FF"/>
+  <circle cx="82" cy="50" r="6.5" fill="#0A84FF"/>
+  <circle cx="108" cy="45" r="5" fill="#FFD60A"/>
+
+  <!-- the big screen -->
+  <rect x="72" y="60" width="94" height="104" rx="30" fill="#F5F5F7"/>
+  <rect x="83" y="71" width="72" height="72" rx="23" fill="#0A84FF"/>
+  <path d="M104 154h30" fill="none" stroke="#08080A" stroke-width="8" stroke-linecap="round"/>
+  <path d="M103 104c10 9 25 9 35 0" fill="none" stroke="#F5F5F7" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- the little screen, mid-hop -->
+  <g transform="rotate(-16 48 108)">
+    <rect x="20" y="84" width="58" height="48" rx="17" fill="#F5F5F7"/>
+    <rect x="29" y="93" width="40" height="30" rx="11" fill="#0A84FF"/>
+    <path d="M38 133v7M60 133v7" fill="none" stroke="#F5F5F7" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  </g>
+  <g transform="translate(330 96) scale(2.35) translate(-143 -78)">
+    <g fill="none" stroke="#F5F5F7" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M143 102l8-25 8 25M146 93h10"/>
+    <path d="M166 85v17M166 78h.1"/>
+    <path d="M174 102V86m0 5c3-5 8-6 11-3"/>
+    <path d="M208 81c-3-4-13-5-15 1-3 8 15 7 15 14 0 7-13 8-17 2"/>
+    <path d="M226 90c-5-6-14-3-14 5 0 8 9 10 14 5"/>
+    <path d="M233 102V86m0 5c3-5 8-6 11-3"/>
+    <path d="M248 95h13c0-12-16-12-16 0 0 9 10 10 16 5"/>
+    <path d="M267 95h13c0-12-16-12-16 0 0 9 10 10 16 5"/>
+    <path d="M285 102V87m0 5c4-8 14-6 14 2v8"/>
+  </g>
+  </g>
+  <text x="332" y="212" font-family="Helvetica Neue, Helvetica, Arial" font-size="27" fill="#8E8E93">Your Mac screen and its sound, on the big screen.</text>
+  <text x="332" y="251" font-family="Helvetica Neue, Helvetica, Arial" font-size="21" fill="#0A84FF">Direct WebRTC over your own Wi-Fi &#183; no cloud, no account</text>
+</svg>

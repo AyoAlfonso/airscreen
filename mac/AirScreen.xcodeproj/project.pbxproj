@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25AAB6891AEDE3B90617BB54 /* Pairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F9279622995FD42053B9B /* Pairing.swift */; };
+		3A97324E8F9D72F1F20493E2 /* TLSIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760120F62F6D50C2111A29CE /* TLSIdentity.swift */; };
+		562BC5B47D5BF1482611C521 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F35C2AA9219983814F1FBB /* AppModel.swift */; };
+		5C3AC69C0E35DF3E69E40DA5 /* AirScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BDF3B8F3E6B0C56D3395E8 /* AirScreenApp.swift */; };
+		64AF2B03875EAEF4A8B9B9B3 /* H264VideoEncoderFactory.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFA161FDD467B5F759E91915 /* H264VideoEncoderFactory.mm */; };
+		7649F6B2B2F91DA74EB7D939 /* SignalingServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1E9ADA398E2FE82799E96 /* SignalingServer.swift */; };
+		85C76F562D9ECD7875CB61F1 /* OpusEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574BBCF9989503070D212FDE /* OpusEncoder.swift */; };
+		916253F4AF9193E100D0F1A5 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B3034D528E693A4107705C /* VideoToolbox.framework */; };
+		95FCF8B1D6388E7BE4A69193 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10283D855EF5F0B8B56CF94 /* CoreMedia.framework */; };
+		96E3BBE994BC55D30030FBCB /* WebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = A508DBFE50F4BBEA557B2540 /* WebRTC */; };
+		A0F2C8DE323AD9378645F4F5 /* WebRTCSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF7303BE2E40CEC21CD16D /* WebRTCSession.swift */; };
+		A2385CD2E19C1F0A65E5E325 /* PairingPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3CCBE3ADB91B6FDDCC844 /* PairingPanel.swift */; };
+		B2F15A0BF1CA79111B41FCF2 /* ScreenCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0879B341508B5653F95525 /* ScreenCapturer.swift */; };
+		C3315182EE4C8C1A5FF4143D /* SignalMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84722055B318AA80F803B92D /* SignalMessage.swift */; };
+		CB0E0BFE860D5140EECB2906 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91749472213B6683EF4AA831 /* CoreVideo.framework */; };
+		DFDFFF02EB10CD5FEEC576E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC780FDF8F8959EDFD9131D /* ContentView.swift */; };
+		E25E5E2852D2A36A8F986138 /* StreamSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B84657498C532C2D097A46 /* StreamSettings.swift */; };
+		EFCD463D4E3D32A0F7039D48 /* AudioPCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A250EAB1DB25FEC01F4AF98 /* AudioPCM.swift */; };
+		FE7063F16B38C39A887D2727 /* AudioWire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C80BD5943CC39075F0500 /* AudioWire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07F3CCBE3ADB91B6FDDCC844 /* PairingPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingPanel.swift; sourceTree = "<group>"; };
+		0A250EAB1DB25FEC01F4AF98 /* AudioPCM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPCM.swift; sourceTree = "<group>"; };
+		233F9279622995FD42053B9B /* Pairing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pairing.swift; sourceTree = "<group>"; };
+		25C0795F8A051B2F9A389647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2879AD708C667DE6D9CBE2CB /* AirScreen-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirScreen-Bridging-Header.h"; sourceTree = "<group>"; };
+		32F35C2AA9219983814F1FBB /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		3BC780FDF8F8959EDFD9131D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D0879B341508B5653F95525 /* ScreenCapturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCapturer.swift; sourceTree = "<group>"; };
+		574BBCF9989503070D212FDE /* OpusEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusEncoder.swift; sourceTree = "<group>"; };
+		70B3034D528E693A4107705C /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		760120F62F6D50C2111A29CE /* TLSIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLSIdentity.swift; sourceTree = "<group>"; };
+		84722055B318AA80F803B92D /* SignalMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalMessage.swift; sourceTree = "<group>"; };
+		8BBF7303BE2E40CEC21CD16D /* WebRTCSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCSession.swift; sourceTree = "<group>"; };
+		91749472213B6683EF4AA831 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		ADC3A4EBAA185ADB06FD8535 /* H264VideoEncoderFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = H264VideoEncoderFactory.h; sourceTree = "<group>"; };
+		B5BDF3B8F3E6B0C56D3395E8 /* AirScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirScreenApp.swift; sourceTree = "<group>"; };
+		C94C80BD5943CC39075F0500 /* AudioWire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWire.swift; sourceTree = "<group>"; };
+		E10283D855EF5F0B8B56CF94 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E8C1E9ADA398E2FE82799E96 /* SignalingServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalingServer.swift; sourceTree = "<group>"; };
+		EFA161FDD467B5F759E91915 /* H264VideoEncoderFactory.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = H264VideoEncoderFactory.mm; sourceTree = "<group>"; };
+		F29CF7E2B004456BF7890923 /* AirScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B84657498C532C2D097A46 /* StreamSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamSettings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F7B78BE14C274AA1045B804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E3BBE994BC55D30030FBCB /* WebRTC in Frameworks */,
+				916253F4AF9193E100D0F1A5 /* VideoToolbox.framework in Frameworks */,
+				95FCF8B1D6388E7BE4A69193 /* CoreMedia.framework in Frameworks */,
+				CB0E0BFE860D5140EECB2906 /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B666AA49F2D7386A427186 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25C0795F8A051B2F9A389647 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0846C6B495EEC980D6236AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29CF7E2B004456BF7890923 /* AirScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		732535C54E3EA9B85AE7EE4C /* AirScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2879AD708C667DE6D9CBE2CB /* AirScreen-Bridging-Header.h */,
+				B5BDF3B8F3E6B0C56D3395E8 /* AirScreenApp.swift */,
+				32F35C2AA9219983814F1FBB /* AppModel.swift */,
+				0A250EAB1DB25FEC01F4AF98 /* AudioPCM.swift */,
+				C94C80BD5943CC39075F0500 /* AudioWire.swift */,
+				3BC780FDF8F8959EDFD9131D /* ContentView.swift */,
+				ADC3A4EBAA185ADB06FD8535 /* H264VideoEncoderFactory.h */,
+				EFA161FDD467B5F759E91915 /* H264VideoEncoderFactory.mm */,
+				574BBCF9989503070D212FDE /* OpusEncoder.swift */,
+				233F9279622995FD42053B9B /* Pairing.swift */,
+				07F3CCBE3ADB91B6FDDCC844 /* PairingPanel.swift */,
+				3D0879B341508B5653F95525 /* ScreenCapturer.swift */,
+				E8C1E9ADA398E2FE82799E96 /* SignalingServer.swift */,
+				84722055B318AA80F803B92D /* SignalMessage.swift */,
+				F5B84657498C532C2D097A46 /* StreamSettings.swift */,
+				760120F62F6D50C2111A29CE /* TLSIdentity.swift */,
+				8BBF7303BE2E40CEC21CD16D /* WebRTCSession.swift */,
+			);
+			path = AirScreen;
+			sourceTree = "<group>";
+		};
+		82C4FBDA8E21E37B3C0A3AF6 = {
+			isa = PBXGroup;
+			children = (
+				00B666AA49F2D7386A427186 /* Resources */,
+				F2F3BEB8B4AD9FA482D53E97 /* Sources */,
+				D2AD7B3603D2659BF5D806F1 /* Frameworks */,
+				0846C6B495EEC980D6236AD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2AD7B3603D2659BF5D806F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E10283D855EF5F0B8B56CF94 /* CoreMedia.framework */,
+				91749472213B6683EF4AA831 /* CoreVideo.framework */,
+				70B3034D528E693A4107705C /* VideoToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2F3BEB8B4AD9FA482D53E97 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				732535C54E3EA9B85AE7EE4C /* AirScreen */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1725E1FC7A6DF6570539B04C /* AirScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F937D4FDB0853B7B20E139 /* Build configuration list for PBXNativeTarget "AirScreen" */;
+			buildPhases = (
+				9CE59E3EF40F9095927B7132 /* Sources */,
+				9F7B78BE14C274AA1045B804 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirScreen;
+			packageProductDependencies = (
+				A508DBFE50F4BBEA557B2540 /* WebRTC */,
+			);
+			productName = AirScreen;
+			productReference = F29CF7E2B004456BF7890923 /* AirScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA6BA3E6525C827424F4B8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1725E1FC7A6DF6570539B04C = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A41CE5C18C347F7DCB9902F2 /* Build configuration list for PBXProject "AirScreen" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 82C4FBDA8E21E37B3C0A3AF6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0A7CAA06CD11A9A9CEF9A2F6 /* XCRemoteSwiftPackageReference "WebRTC" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0846C6B495EEC980D6236AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1725E1FC7A6DF6570539B04C /* AirScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CE59E3EF40F9095927B7132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3AC69C0E35DF3E69E40DA5 /* AirScreenApp.swift in Sources */,
+				562BC5B47D5BF1482611C521 /* AppModel.swift in Sources */,
+				EFCD463D4E3D32A0F7039D48 /* AudioPCM.swift in Sources */,
+				FE7063F16B38C39A887D2727 /* AudioWire.swift in Sources */,
+				DFDFFF02EB10CD5FEEC576E8 /* ContentView.swift in Sources */,
+				64AF2B03875EAEF4A8B9B9B3 /* H264VideoEncoderFactory.mm in Sources */,
+				85C76F562D9ECD7875CB61F1 /* OpusEncoder.swift in Sources */,
+				25AAB6891AEDE3B90617BB54 /* Pairing.swift in Sources */,
+				A2385CD2E19C1F0A65E5E325 /* PairingPanel.swift in Sources */,
+				B2F15A0BF1CA79111B41FCF2 /* ScreenCapturer.swift in Sources */,
+				C3315182EE4C8C1A5FF4143D /* SignalMessage.swift in Sources */,
+				7649F6B2B2F91DA74EB7D939 /* SignalingServer.swift in Sources */,
+				E25E5E2852D2A36A8F986138 /* StreamSettings.swift in Sources */,
+				3A97324E8F9D72F1F20493E2 /* TLSIdentity.swift in Sources */,
+				A0F2C8DE323AD9378645F4F5 /* WebRTCSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		581A2F531A1943A82A8A61D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSBonjourServices = _airscreen._tcp;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "AirScreen uses the local network to send your screen to your TV.";
+				INFOPLIST_KEY_NSScreenCaptureUsageDescription = "AirScreen needs to capture your screen to share it with your TV.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airscreen.mac;
+				PRODUCT_NAME = AirScreen;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/AirScreen/AirScreen-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		59CE1705A9DB5B32DABCC20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		824370E79BD7C18E12E3599D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8A3451AF48504FD471931F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSBonjourServices = _airscreen._tcp;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "AirScreen uses the local network to send your screen to your TV.";
+				INFOPLIST_KEY_NSScreenCaptureUsageDescription = "AirScreen needs to capture your screen to share it with your TV.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airscreen.mac;
+				PRODUCT_NAME = AirScreen;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/AirScreen/AirScreen-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A41CE5C18C347F7DCB9902F2 /* Build configuration list for PBXProject "AirScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CE1705A9DB5B32DABCC20C /* Debug */,
+				824370E79BD7C18E12E3599D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0F937D4FDB0853B7B20E139 /* Build configuration list for PBXNativeTarget "AirScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				581A2F531A1943A82A8A61D0 /* Debug */,
+				8A3451AF48504FD471931F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A7CAA06CD11A9A9CEF9A2F6 /* XCRemoteSwiftPackageReference "WebRTC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stasel/WebRTC";
+			requirement = {
+				kind = exactVersion;
+				version = 156.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A508DBFE50F4BBEA557B2540 /* WebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A7CAA06CD11A9A9CEF9A2F6 /* XCRemoteSwiftPackageReference "WebRTC" */;
+			productName = WebRTC;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CDA6BA3E6525C827424F4B8B /* Project object */;
+}
